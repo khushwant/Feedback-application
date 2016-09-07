@@ -1,0 +1,332 @@
+.html {
+  font-size: 100%;
+}
+@font-face {
+  font-family: "helvetica";
+  src: url("../fonts/HelveticaNeue.otf");
+}
+@font-face {
+  font-family: "lightHelvetica";
+  src: url("../fonts/HelveticaNeue-Light.otf");
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-weight: 100;
+  background: #ebebeb;
+  overflow: hidden;
+}
+ 
+.mainContainer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica;
+}
+.logoMain
+{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: auto;
+    height: 8rem;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+}
+.header{
+    position: absolute;
+    width: 100%;
+    background-color: #43515E;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    top: 0;
+    height: 13rem;
+    }
+.experience{
+    position: absolute;
+    top: 19rem;
+    height: 13rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    background-color: #546376;
+    margin: 0;
+}
+.images{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0;
+    margin: 0 auto;
+    width: 20rem;
+}
+.image{
+    width: 7rem;
+    margin-left: 2rem;
+    padding: 0;
+}
+.title{
+    position: relative;
+    top: 0;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    font-family: Calibri;
+}
+.expTitle{
+    position: relative;
+    font-size: 1.9rem;
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-family: Calibri;
+    padding: 1.1rem;
+}
+.bill{
+    position: absolute;
+    top: 34rem;
+    background-color: white;
+    width: 100%;
+    bottom: 0;
+
+}
+.price{
+    position: absolute;
+    height: 13rem;
+    line-height: 13rem;
+    margin: 0px;
+    width: 100%;
+    color: #2F2F2F;
+    text-align: center;
+    font-family: sans-serif;
+}
+.dollar{
+    font-size: 5rem;
+}
+.totalPrice{
+    font-size: 9rem;
+    font-weight: 600rem;
+}
+.items{
+    position: absolute;
+    top: 13rem;
+    font-family: Calibri;
+    font-weight: 100;
+    color: black;
+    width: 90%;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    /* padding: 3rem; */
+    overflow: scroll;
+    border-top: 1px dashed lightgray;
+}
+.hr{
+     border:none;
+     border-top: 1px dashed #ebebeb;
+}
+.item{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 5rem;
+}
+.left{
+    position: relative;
+    top: 0rem;
+    /* color: black; */
+    margin-top: 1rem;
+    font-size: 2.25rem;
+    left: 0;
+    float: left;
+    width: 60%;
+}
+.right{
+    position: relative;
+    margin-top: 1rem;
+    font-size: 2rem;
+    width: 30%;
+    text-align: right;
+    /* right: 0; */
+    float: right;
+    /* text-align: right; */
+}
+.description{
+    color: lightgray;
+}
+.show{
+    display:none;
+}
+.hide {
+    display:block;
+}
+.logo{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8rem;
+}
+.feedbackScreen{
+    position: absolute;
+    bottom: 100%;
+    height: 100%;
+    width: 100%;
+    background-color: #546376;
+    -webkit-transition: 1000ms;
+}
+.radio{
+    position: relative;
+    color: white;
+    font-size: 1.6rem;
+    border-top: 1px solid #ebebeb;
+    padding: 2rem 0 2rem 0;
+}
+.form{
+    position: absolute;
+    top: 23rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 47rem;
+}
+.textarea{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #6D7C8F;
+    color: #8D9AAB;
+    font-size: 2rem;
+    height: 10rem;
+    font-family: Calibri;
+    background-color: #546376;
+}
+.textareaText{
+    padding: 1rem;
+}
+.change{
+    position: relative;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    height: 4rem;
+    padding: 2rem;
+    width: 37%;
+}
+.changeText{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.75rem;
+    color: lightgray;
+    /* float: left; */
+    width: 17rem;
+    line-height: 4rem;
+    margin-left: 0rem;
+    font-family: Calibri;
+}
+.changeLogo{
+    width: 3rem;
+    float: right;
+    /* margin: 0; */
+    padding: 0.5rem 0 0.5rem 0rem;  
+}
+.reply{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 4rem;
+    top: 66rem;
+    padding: 3rem 0 3rem 0;
+}
+.replyTitle{
+    position: relative;
+    color: white;
+    font-size: 1.5rem;
+    font-family: Calibri;
+    font-weight: lighter;
+    left: 7%;
+    width: 20rem;
+    transform: translateX(-3%);
+}
+.replySubtitle{
+    position: relative;
+    left: 7%;
+    transform: translateX(-3%);
+    font-size: 1.45rem;
+    font-weight: lighter;
+    color: #8D9AAB;
+    font-family: Calibri;
+}
+.head{
+    position: absolute;
+    top: 1rem;
+    height: 22rem;
+    width: 100%
+}
+.titleHappy{
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    font-family: Calibri;
+    height: 6rem;
+}
+.selection{
+    position: relative;
+    height: 3rem;
+    width: 3rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    float: left;
+    top: 18%;
+    transform: translateY(-18%);
+    
+}
+.fill{
+        background-color: white;
+    }
+.radioText{
+    position: relative;
+    font-size: 2rem;
+    width: 20rem;
+    left: 3%;
+    transform: translateX(-3%);
+    line-height: 2rem;
+    font-family: Calibri;
+    font-weight: lighter;
+    color: white;
+}
+.allowReply{
+    position: relative;
+    height: 3rem;
+    float: left;
+}
+.submitAnswer{
+    position: absolute;
+    top: 76rem;
+    font-size: 2rem;
+    color: #546376;
+    left: 50%;
+    width: 70%;
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+    transform: translateX(-50%);
+    border-radius: 4%;
+    background-color: white; 
+}
+.slideUp{
+    bottom:100%;
+}
+.slideDown{
+    bottom:0;
+}

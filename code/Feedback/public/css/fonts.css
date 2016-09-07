@@ -1,0 +1,121 @@
+﻿@font-face {
+        font-family: "Roboto-Condensed";
+        font-style:normal;
+        font-weight:100;
+        src: local("Roboto"), url("../fonts/RobotoCondensed-Light.ttf") ;
+}
+
+@font-face {
+        font-family: "Roboto";
+        font-style:normal;
+        font-weight:100;
+        src: local("Roboto"), url("../fonts/Roboto-Thin.ttf") ;
+}
+@font-face {
+        font-family: "Roboto";
+        font-style:normal;
+        font-weight:300;
+        src: local("Roboto"), url("../fonts/Roboto-Light.ttf") ;
+}
+
+@font-face {
+        font-family: "Roboto";
+        font-style:normal;
+        font-weight:400;
+        src: local("Roboto"), url("../fonts/Roboto-Regular.ttf") ;
+}
+@font-face {
+        font-family: "Roboto";
+        font-style:normal;
+        font-weight:500;
+        src: local("Roboto"), url("../fonts/Roboto-Medium.ttf") ;
+}
+
+
+@font-face {
+        font-family: "Montserrat";
+        font-style:normal;
+        font-weight:100;
+        src: local("sans-serif"), url("../fonts/Montserrat-Regular.ttf") ;
+}
+@font-face {
+        font-family: "Montserrat";
+        font-style:normal;
+        font-weight:300;
+        src: local("sans-serif"), url("../fonts/Montserrat-Bold.ttf") ;
+}
+@font-face {
+        font-family: "Economica";
+        font-style:normal;
+        font-weight:700;
+        src: local("sans-serif"), url("../fonts/Economica-BoldItalic.ttf") ;
+}
+
+@font-face {
+        font-family: "Economica";
+        font-style:normal;
+        font-weight:700;
+        src: local("sans-serif"), url("../fonts/Economica-Bold.ttf") ;
+}
+
+@font-face {
+        font-family: "Economica";
+        font-style:normal;
+        font-weight:400;
+        src: local("sans-serif"), url("../fonts/Economica-Italic.ttf") ;
+}
+
+@font-face {
+        font-family: "Economica";
+        font-style:normal;
+        font-weight:400;
+        src: local("sans-serif"), url("../fonts/Economica-Regular.ttf") ;
+}
+
+@font-face {
+        font-family: "WalterTurncoat";
+        font-style:normal;
+        font-weight:400;
+        src:url("../fonts/WalterTurncoat.ttf") ;
+}
+
+@font-face {
+        font-family: "OpenSans-Bold";
+        font-style:normal;
+        font-weight:900;
+        src:url("../fonts/OpenSans-Bold.ttf") ;
+}
+@font-face {
+        font-family: "SourceSansPro";
+
+        font-weight:700;
+        src:url("../fonts/SourceSansPro-Bold.ttf") ;
+}
+@font-face {
+        font-family:'SourceSansPro';
+        font-style:light;
+        font-weight:700;
+        src:url("../fonts/SourceSansPro-Black.ttf") ;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../fonts/Montserrat-Bold.ttf");
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 500;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "arun";
+    src: url("../fonts/AlteHaasGroteskBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "arunWrite";
+    src: url("../fonts/AlteHaasGroteskRegular.ttf") format("truetype");
+}

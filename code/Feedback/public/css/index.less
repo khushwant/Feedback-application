@@ -1,0 +1,330 @@
+.html {
+	font-size: 10px;
+}
+@font-face {
+	font-family: "helvetica";
+	font-family: "lightHelvetica";
+	src: url("../fonts/HelveticaNeue-Light.otf");
+	src: url("../fonts/HelveticaNeue.otf");
+}
+body {
+	background: #ebebeb;
+	font-weight: 100;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+.show {
+	display: none;
+}
+.hide {
+	display: block;
+}
+.mainContainer {
+	font-family: Helvetica;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	.header {
+		background-color: #43515E;
+        height: 15rem;
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+        position: absolute;
+        top: 0;
+        width: 100%;
+		.head {
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+			.logoMain {
+				border-color: white;
+				border-radius: 50%;
+				border-style: solid;
+				border-width: 2px;
+				height: 7.5rem;
+				left: 50%;
+				margin: auto;
+				position: relative;
+				transform: translateX(-50%);
+			}
+			.title {
+				color: white;
+				font-family: Calibri;
+				font-size: 2.5rem;
+				font-weight: lighter;
+				position: relative;
+				text-align: center;
+				top: 0;
+			}
+		}
+	}
+	.experience {
+		background-color: #546376;
+        height: 15rem;
+        margin: 0;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        position: absolute;
+        top: 23rem;
+        width: 100%;
+		.expTitle {
+			    color: white;
+                font-family: Calibri;
+                font-size: 2rem;
+                margin: 0;
+                padding: 2rem;
+                position: relative;
+                text-align: center;
+		}
+		.images {
+			    left: 50%;
+                margin: 0 auto;
+                padding: 0;
+                position: absolute;
+                transform: translateX(-50%);
+                width: 20rem;
+			.image {
+				margin-left: 2rem;
+				padding: 0;
+				width: 7rem;
+			}
+		}
+	}
+	.bill {
+		    background-color: white;
+            bottom: 0;
+            position: absolute;
+            top: 40rem;
+            width: 100%;
+		.price {
+			color: #2F2F2F;
+            height: 17rem;
+            line-height: 17rem;
+            margin: 0;
+            position: relative;
+            text-align: center;
+            width: 100%;
+			.dollar {
+				font-size: 3rem;
+			}
+			.totalPrice {
+				font-size: 8rem;
+				font-weight: bold;
+			}
+		}
+		.items {
+			    border-top: 1px dashed black;
+                bottom: 0;
+                box-sizing: border-box;
+                color: black;
+                font-weight: lighter;
+                overflow: auto;
+                padding-top: 3rem;
+                margin: 0 3rem 0 3rem;
+                position: absolute;
+                top: 17rem;
+			.item {
+				position: relative;
+                width: 100%;
+				.left {
+					    float: left;
+                        font-size: 2rem;
+                        padding-bottom: 1rem;
+                        /* line-height: 2rem; */
+                        left: 0;
+                        position: relative;
+                        top: 0;
+                        width: 60%;
+					.description {
+						    color: lightgray;
+                            float: left;
+                            font-size: 2rem;
+                            position: relative;
+                            padding-top: 1rem;
+                            width: 100%;
+					}
+				}
+				.right {
+					        float: right;
+                            font-size: 2rem;
+                            position: relative;
+                            text-align: right;
+                            padding-bottom: 1rem;
+                            width: 20%;
+				}
+			}
+		}
+	}
+	.feedbackScreen {
+		-webkit-transition: 500ms;
+		background-color: #546376;
+		height: 100%;
+		position: absolute;
+		top: 100%;
+		width: 100%;
+		.feedbackScreenMargin {
+			    padding: 3rem 7rem 0rem 7rem;
+                position: relative;
+			.head {
+                height: 22rem;
+                position: relative;
+                top: 0;
+                width: 100%;
+				.logo {
+					left: 50%;
+					position: relative;
+					transform: translateX(-50%);
+					width: 8rem;
+				}
+				.titleHappy {
+					color: #ffffff;
+					font-family: Calibri;
+					font-size: 2.5rem;
+					font-weight: lighter;
+					position: relative;
+					text-align: center;
+				}
+				.change {
+                    height: 4rem;
+                    left: 50%;
+                    /* padding: 2rem; */
+                    position: absolute;
+                    top: 16rem;
+                    transform: translateX(-50%);
+                    width: 15rem;
+					.changeText {
+						    color: lightgray;
+                            font-family: Calibri;
+                            font-size: 1.5rem;
+                            /* left: 50%; */
+                            line-height: 4rem;
+                            /* height: 1rem; */
+                            float: left;
+                            margin-left: 0;
+                            position: relative;
+					}
+                    .changeLogo {
+							float: right;
+							padding: 0.5rem 0;
+							top: -5%;
+							transform: translateY(5%);
+							width: 3rem;
+				    }
+				}
+			}
+			.form {
+                height: 44rem;
+                position: relative;
+                top: 1rem;
+                width: 100%;
+				.radio {
+					border-top: 1px solid #ebebeb;
+					color: white;
+					font-size: 1.6rem;
+					padding: 2rem 0;
+					position: relative;
+					.selection {
+						border-radius: 50%;
+						border: 1px solid white;
+						float: left;
+						height: 3rem;
+						position: relative;
+						top: 18%;
+						transform: translateY(-18%);
+						width: 3rem;
+					}
+					.fill {
+						    background-image: url("http://127.0.0.1:8081/images/tick2.png");
+                            background-size: 3rem;
+					}
+					.radioText {
+						color: white;
+						font-family: Calibri;
+						font-size: 2rem;
+						font-weight: lighter;
+						left: 3%;
+						line-height: 2rem;
+						position: relative;
+						transform: translateX(-3%);
+						width: 20rem;
+					}
+				}
+				.textarea {
+					background-color: #546376;
+					color: #ebebeb;
+					font-family: Calibri;
+					font-size: 2rem;
+					height: 13rem;
+					left: 50%;
+					position: relative;
+					transform: translateX(-50%);
+					.textareaText {
+						background-color: #546376;
+						color: #ebebeb;
+						height: 100%;
+						padding: 1rem;
+						position: relative;
+						width: 100%;
+					}
+				}
+			}
+			.reply {
+				    height: 4rem;
+                    position: relative;
+                    padding: 4rem 0 3rem 0;
+                    top: 1rem;
+                    width: 100%;
+				    .selection {
+						border-radius: 50%;
+						border: 1px solid white;
+						float: left;
+						height: 3rem;
+						position: relative;
+						top: 18%;
+						transform: translateY(-18%);
+						width: 3rem;
+					}
+					.fill {
+						    background-image: url("http://127.0.0.1:8081/images/tick2.png");
+                            background-size: 3rem;
+					}
+				.replyTitle {
+					color: white;
+					font-family: Calibri;
+					font-size: 1.5rem;
+					font-weight: lighter;
+					left: 7%;
+					position: relative;
+					transform: translateX(-3%);
+					width: 20rem;
+				}
+				.replySubtitle {
+					color: lightgray;
+					font-family: Calibri;
+					font-size: 1.45rem;
+					font-weight: lighter;
+					left: 7%;
+					position: relative;
+					transform: translateX(-3%);
+				}
+			}
+			.submitAnswer {
+                background-color: white;
+                border-radius: 4%;
+                color: #546376;
+                font-size: 1.7rem;
+                height: 5rem;
+                top: 1rem;
+                line-height: 5rem;
+                margin: 2rem 0 0 0;
+                position: relative;
+                text-align: center;
+                width: 100%;
+			}
+		}
+	}
+	.slideUp {
+		top: 0;
+	}
+}

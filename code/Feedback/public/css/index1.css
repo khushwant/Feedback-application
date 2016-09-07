@@ -1,0 +1,109 @@
+.html {
+  font-size: 10px;
+}
+@font-face {
+  font-family: "helvetica";
+  src: url("../fonts/HelveticaNeue.otf");
+}
+@font-face {
+  font-family: "lightHelvetica";
+  src: url("../fonts/HelveticaNeue-Light.otf");
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-weight: 100;
+  background: #ebebeb;
+  overflow: hidden;
+}
+.show {
+  display: none;
+}
+.hide {
+  display: block;
+}
+.mainContainer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica;
+}
+.mainContainer .section-1 .d11 {
+  background-color: gray;
+  min-height: 35%;
+}
+.mainContainer .section-1 .d11 .main {
+  display: block;
+  margin: auto;
+  width: 15%;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+}
+.mainContainer .section-1 .d11 .R1 {
+  font-size: 1.75rem;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.mainContainer .section-1 .d12 {
+  padding-top: 10px;
+  background-color: dimgray;
+  min-height: 25%;
+  margin: 0;
+  padding-bottom: 0;
+}
+.mainContainer .section-1 .d12 .p1 {
+  font-size: 1.4rem;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.mainContainer .section-1 .d12 .images {
+  margin-left: 4%;
+  width: 5%;
+  padding: 0;
+  margin-bottom: 0;
+}
+.mainContainer .section-1 .d12 #image1 {
+  margin-left: 42%;
+  margin-bottom: 0;
+  padding: 0;
+}
+.mainContainer .section-2 {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+.mainContainer .section-2 .price {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.mainContainer .section-2 .price .total-price {
+  font-size: 2rem;
+  text-align: center;
+  padding: 1% 0% 1% 0%;
+}
+.mainContainer .section-2 .price .hr {
+  border: none;
+  border-bottom: 2px dotted #ebebeb;
+}
+.mainContainer .section-2 .items {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.mainContainer .section-2 .items .left {
+  text-align: left;
+  width: 80%;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+.mainContainer .section-2 .items .right {
+  text-align: right;
+  width: 10%;
+  display: inline-block;
+  font-size: 1.5rem;
+}
